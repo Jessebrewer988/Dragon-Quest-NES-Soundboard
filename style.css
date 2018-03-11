@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+  background: url(https://i.imgur.com/RdWwxpM.gif) bottom center;
+  background-size: cover;
+}
+
+
+body,html,.footer {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.header,.footer {
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+    width:100%;
+    color: white;
+    text-shadow: 0 0 .9rem black;
+    font-size: 38px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: lightblue;
+  box-shadow: 0 0 1rem lightblue;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: lightblue;
+}
+
+.footer {
+  color:white;
+  width: 100%;
+  text-shadow: 0 0 .9rem black;
+}
