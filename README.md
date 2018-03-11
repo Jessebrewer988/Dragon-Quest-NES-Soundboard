@@ -1,4 +1,4 @@
-![Banner Pic](https://github.com/jessebrewer988/dragon-quest-soundboard/raw/master/images/banner.png "DQ Soundboard Banner")
+![Banner Pic](https://raw.githubusercontent.com/Jessebrewer988/dragon-quest-soundboard/master/images/banner.PNG "DQ Soundboard Banner")
 
 
 # Dragon Quest(NES) Soundboard
@@ -16,7 +16,7 @@ The logic is written entirely in JavaScript with minor ES6 syntax.
 
 The sounds are straight from the game! Audio and visual elements belong to Square-Enix. 
 
-![Keys Pic](https://github.com/jessebrewer988/dragon-quest-soundboard/raw/master/images/keys.png "DQ Soundboard Keys")
+![Keys Pic](https://raw.githubusercontent.com/Jessebrewer988/dragon-quest-soundboard/master/images/keys.PNG "DQ Soundboard Keys")
 
 ## Author
 
