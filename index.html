@@ -17,91 +17,92 @@
 </head>
 
 <body>
-    <div class="header">
-        <a href="https://github.com/Jessebrewer988/dragon-quest-soundboard">Dragon Quest Soundboard</a>
-    </div>
-    <div class="keys">
-        <div class="container">
+    <div class="container">
+        <div class="header">
+            <a href="https://github.com/Jessebrewer988/dragon-quest-soundboard">Dragon Quest Soundboard</a>
+        </div>
+        <div class="keys">
 
-            <div class="row">
-                <div class="col-sm">
+
+            <div class="row justify-content-md-center">
+                <div class="col-sm-1">
                     <div data-key="81" class="key">
                         <kbd>Q</kbd>
                         <span class="sound">attack</span>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-1">
+                    <div data-key="87" class="key">
+                        <kbd>W</kbd>
+                        <span class="sound">hit</span>
+                    </div>
+
+                </div>
+                <div class="col-sm-1">
+                    <div data-key="69" class="key">
+                        <kbd>E</kbd>
+                        <span class="sound">spell</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row justify-content-md-center">
+                <div class="col-sm-1">
                     <div data-key="65" class="key">
                         <kbd>A</kbd>
                         <span class="sound">special</span>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-1">
+                    <div data-key="83" class="key">
+                        <kbd>S</kbd>
+                        <span class="sound">cursed</span>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div data-key="68" class="key">
+                        <kbd>D</kbd>
+                        <span class="sound">barrier</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-sm-1">
                     <div data-key="90" class="key">
                         <kbd>Z</kbd>
                         <span class="sound">wyvern</span>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-                <div data-key="87" class="key">
-                    <kbd>W</kbd>
-                    <span class="sound">hit</span>
+                <div class="col-sm-1">
+                    <div data-key="88" class="key">
+                        <kbd>X</kbd>
+                        <span class="sound">victory</span>
+                    </div>
                 </div>
-
-            </div>
-            <div class="col-sm">
-                <div data-key="83" class="key">
-                    <kbd>S</kbd>
-                    <span class="sound">cursed</span>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div data-key="88" class="key">
-                    <kbd>X</kbd>
-                    <span class="sound">victory</span>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-                <div data-key="69" class="key">
-                    <kbd>E</kbd>
-                    <span class="sound">spell</span>
-                </div>
-
-            </div>
-            <div class="col-sm">
-                <div data-key="68" class="key">
-                    <kbd>D</kbd>
-                    <span class="sound">barrier</span>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div data-key="67" class="key">
-                    <kbd>C</kbd>
-                    <span class="sound">levelup</span>
+                <div class="col-sm-1">
+                    <div data-key="67" class="key">
+                        <kbd>C</kbd>
+                        <span class="sound">levelup</span>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+        <audio data-key="81" src="sounds/attack.mp3"></audio>
+        <audio data-key="87" src="sounds/hit.mp3"></audio>
+        <audio data-key="69" src="sounds/spell.mp3"></audio>
+        <audio data-key="65" src="sounds/specialitem.mp3"></audio>
+        <audio data-key="83" src="sounds/cursed.mp3"></audio>
+        <audio data-key="68" src="sounds/barrier.mp3"></audio>
+        <audio data-key="90" src="sounds/wyvernwing.mp3"></audio>
+        <audio data-key="88" src="sounds/victory.mp3"></audio>
+        <audio data-key="67" src="sounds/levelup.mp3"></audio>
+        <div class="footer"> Sounds and background image &copy; Square-Enix; I don't own any of them.</div>
     </div>
-    </div>
-
-    <audio data-key="81" src="sounds/attack.mp3"></audio>
-    <audio data-key="87" src="sounds/hit.mp3"></audio>
-    <audio data-key="69" src="sounds/spell.mp3"></audio>
-    <audio data-key="65" src="sounds/specialitem.mp3"></audio>
-    <audio data-key="83" src="sounds/cursed.mp3"></audio>
-    <audio data-key="68" src="sounds/barrier.mp3"></audio>
-    <audio data-key="90" src="sounds/wyvernwing.mp3"></audio>
-    <audio data-key="88" src="sounds/victory.mp3"></audio>
-    <audio data-key="67" src="sounds/levelup.mp3"></audio>
-    <div class="footer"> Sounds and background image &copy; Square-Enix; I don't own any of them.</div>
     <script src="script.js"></script>
 </body>
 

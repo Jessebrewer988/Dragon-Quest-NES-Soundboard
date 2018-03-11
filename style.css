@@ -4,8 +4,12 @@
 
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/RdWwxpM.gif) bottom center;
+  
   background-size: cover;
+}
+
+body {
+  background: url(https://i.imgur.com/RdWwxpM.gif) bottom center;
 }
 
 body,html,.footer {
@@ -26,10 +30,7 @@ a {
 }
 
 .keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: center;
+  min-height: 100vh; 
   justify-content: center;
 }
 
@@ -70,3 +71,4 @@ kbd {
   width: 100%;
   text-shadow: 0 0 .9rem black;
 }
+
