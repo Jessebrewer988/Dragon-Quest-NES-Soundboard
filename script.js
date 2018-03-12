@@ -16,8 +16,5 @@ function playSound(e) {
 
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-// const list = document.getElementsByClassName("key");
-// for (var i = 0; i < list.length; i++) {
-//     list[i].addEventListener('click', playSound);
-// }; TODO
+keys[0].addEventListener('click', playSound);
 window.addEventListener('keydown', playSound);
