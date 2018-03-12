@@ -1,10 +1,10 @@
 * {
-  font-family: 'Press Start 2P', cursive !important;
+  font-family: "Press Start 2P", cursive !important;
 }
 
 html {
   font-size: 10px;
-  
+
   background-size: cover;
 }
 
@@ -12,40 +12,48 @@ body {
   background: url(https://i.imgur.com/RdWwxpM.gif) bottom center;
 }
 
-body,html,.footer {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-.header,.footer {
+.header {
   text-align: center;
 }
 
+.footer-copyright {
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  color: white;
+}
+
 a {
-    text-decoration: none;
-    width:100%;
-    color: white;
-    text-shadow: 0 0 .9rem black;
-    font-size: 38px;
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  text-shadow: 0 0 0.9rem black;
+  font-size: 38px;
 }
 
 .keys {
-  min-height: 100vh; 
+  min-height: 100vh;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
   margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
 }
 
 .playing {
@@ -60,15 +68,14 @@ kbd {
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: lightblue;
 }
 
 .footer {
-  color:white;
+  color: white;
   width: 100%;
-  text-shadow: 0 0 .9rem black;
+  text-shadow: 0 0 0.9rem black;
 }
-
