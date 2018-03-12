@@ -1,17 +1,11 @@
-#gallery-1 img {
-  width:375px;
-}
-@media screen and (min-width: 1366px) {
-#gallery-1 img {width:375px;}
-}
-@media screen and (min-width: 1440px) {
-#gallery-1 img {width:428px;}
-}
-@media screen and (min-width: 1600px) {
-#gallery-1 img {width:434px;}
-}
-@media screen and (min-width: 1920px) {
-#gallery-1 img {width:540px;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .col-sm-1 {
+    width: 8.33%;
+    clear: both;
+    margin:auto;
+    float:left;
+  }
 }
 
 * {
@@ -27,7 +21,7 @@ body {
   background: url(https://i.imgur.com/RdWwxpM.gif) bottom center;
   background-position: no-repeat center fixed;
   background-size: cover;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 body,
@@ -42,10 +36,14 @@ html {
 
 .footer {
   text-align: center;
-  color:white
+  color: white;
 }
 
-a {
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
   width: 100%;
   color: white;

@@ -1,15 +1,5 @@
 // soundboard logic
 
-$(document).ready(function(){
-    $(window).resize();
-});
-$(window).resize(function(){
-    // your code
-    var windowWidth=$(window).width();
-    var mainContainerWidth=windowWidth-100; // For example
-    $("#container").css({"width":mainContainerWidth+"px"});
-});
-
 function removeTransition(e) {
     if (e.propertyName !== 'transform') return; // skip if not a transform
     this.classList.remove('playing');
@@ -26,5 +16,8 @@ function playSound(e) {
 
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+// const list = document.getElementsByClassName("key");
+// for (var i = 0; i < list.length; i++) {
+//     list[i].addEventListener('click', playSound);
+// }; TODO
 window.addEventListener('keydown', playSound);
-window.addEventListener('touchstart', playSound);
